@@ -1,0 +1,28 @@
+{
+  "name": "covidbotalert",
+  "version": "1.0.0",
+  "description": "A face messenger based covidBot to alert people on vaccination slots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "botStart": "nodemon index.js"
+  },
+  "author": "kartik rana",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "facebook-bot-messenger": "^1.0.9",
+    "moment": "^2.29.1",
+    "request": "^2.88.2",
+    "twilio": "^3.63.1",
+    "uri-js": "^4.4.1",
+    "urijs": "^1.19.6",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
